@@ -128,7 +128,7 @@ header nav a:last-child:hover {
     background-color: #616161;
     transition-duration: .25s;
 }
-  .burger > span::before {
+.burger > span::before {
     content: '';
     top: -8px;
 }
@@ -189,7 +189,6 @@ header nav a:last-child:hover {
 .burger span {
     display: block;
     position: absolute;
-    height: 4px;
     width: 100%;
     background: black;
     border-radius: 9px;
@@ -1051,12 +1050,40 @@ footer {
         gap: 20px;
     }
 }
+@media (max-width: 375px) {
+    .text {
+        width: 90rem;
+    }
+    .main-infotmation-send div a {
+        border-radius: 6rem;
+    }
+    .main-infotmation-send div {
+        width: 107.2rem;
+    }
+}
 @media (max-width: 320px) {
     .head img {
         height: 60rem;
         opacity: 0.3;
-    }.text {
-        width: 80rem;
+    }
+    .problems {
+        padding: 15rem 0;
+    }
+    .problems h2 {
+        font-size: 8rem;
+        padding: 0 5rem;
+    }
+    .head .container p {
+        width: 90rem;
+    }
+    .text {
+        width: 75rem;
+    }
+    .upper {
+        padding-bottom: 10rem;
+    }
+    .ourworks {
+        padding: 20rm 0;
     }
     .example-img img {
         width: 80rem;
@@ -1070,12 +1097,20 @@ footer {
     .input {
         width: 85rem;
         height: 17.5rem;
-        font-size: 6rem;
+        font-size: 6.25rem;
     }
     .message {
         width: 85rem;
         height: 86.25rem;
-        font-size: 6rem;
+        font-size: 6.25rem;
         border-radius: 3rem;
+    }
+    .main-infotmation-send div a {
+        border-radius: 6rem;
+        font-size: 6.25rem;
+    }
+    .main-infotmation-send div {
+        width: 95.2rem;
+        height: 155rem
     }
 }
