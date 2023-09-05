@@ -1021,6 +1021,7 @@ footer {
     }
     .main-infotmation-send div a {
         font-size: 7rem;
+        border-radius: 6rem;
     }
     footer {    
         flex-direction: column;
